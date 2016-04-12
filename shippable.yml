@@ -31,6 +31,8 @@ build:
     - cat shippable/codecoverage/cobertura-coverage.xml
     - export XUNIT_FILE=shippable/testresults/result.xml
     - grunt
+    - ls -l shippable/testresults
+    - ls -l shippable/codecoverage
   #  - cat shippable/codecoverage/cobertura-coverage11.xml
  
  
